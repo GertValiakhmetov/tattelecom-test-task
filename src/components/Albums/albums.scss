@@ -1,0 +1,18 @@
+.albumsPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  & > nav {
+    background-color: lightgrey;
+    border-radius: 10px;
+  }
+}
+
+.albumsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

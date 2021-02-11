@@ -1,0 +1,30 @@
+.photosPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  & > nav {
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    border-radius: 10px;
+  }
+}
+
+.photosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.photoContainer {
+  outline: none;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+}
